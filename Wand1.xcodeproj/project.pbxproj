@@ -12,6 +12,8 @@
 		04229DB7208A785C00BF8F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04229DB5208A785C00BF8F88 /* Main.storyboard */; };
 		04229DB9208A785D00BF8F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04229DB8208A785D00BF8F88 /* Assets.xcassets */; };
 		04229DBC208A785D00BF8F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04229DBA208A785D00BF8F88 /* LaunchScreen.storyboard */; };
+		04229DC4208A7D9600BF8F88 /* SpellDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04229DC3208A7D9600BF8F88 /* SpellDataViewController.swift */; };
+		04229DC6208A803300BF8F88 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04229DC5208A803300BF8F88 /* Spell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04229DB8208A785D00BF8F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04229DBB208A785D00BF8F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04229DBD208A785D00BF8F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04229DC3208A7D9600BF8F88 /* SpellDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDataViewController.swift; sourceTree = "<group>"; };
+		04229DC5208A803300BF8F88 /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				04229DB1208A785C00BF8F88 /* AppDelegate.swift */,
+				04229DC5208A803300BF8F88 /* Spell.swift */,
 				04229DB3208A785C00BF8F88 /* ViewController.swift */,
+				04229DC3208A7D9600BF8F88 /* SpellDataViewController.swift */,
 				04229DB5208A785C00BF8F88 /* Main.storyboard */,
 				04229DB8208A785D00BF8F88 /* Assets.xcassets */,
 				04229DBA208A785D00BF8F88 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04229DB4208A785C00BF8F88 /* ViewController.swift in Sources */,
+				04229DC4208A7D9600BF8F88 /* SpellDataViewController.swift in Sources */,
+				04229DC6208A803300BF8F88 /* Spell.swift in Sources */,
 				04229DB2208A785C00BF8F88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
